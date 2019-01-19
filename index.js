@@ -14,10 +14,10 @@ function add2(n) {
   const two = 2
 }
 
-var funkyFunction = function(theFunk) {
-  return function(theFunk) {
+var funkyFunction = function() {
+  return function() {
     return "FUNKY!"
   }
 }
-
-var theFunk = function(theFunk) {}
+var theFunk = function() {
+}
